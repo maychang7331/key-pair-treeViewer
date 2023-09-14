@@ -51,9 +51,9 @@ If you want to set up your environment from scratch, follow these steps:
 
 Here's how I approached the project:
 
-```
+:::info
 Todo List + Tree View
-```
+:::
 
 #### 🗓️ Todo List
 
