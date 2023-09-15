@@ -26,19 +26,6 @@ export const usePairStore = defineStore("pair", () => {
     },
   ]);
 
-  // const tree = ref({
-  //   nav: {
-  //     header: {
-  //       value: null,
-  //       hello: {
-  //         // 萬一節點名稱就叫value會和用來儲存的value公用名字，
-  //         // 解法：用__value__來儲存，但萬一使用者又輸入__value__則會面臨相同狀況
-  //         value: null,
-  //       },
-  //     },
-  //   },
-  // });
-
   function addPair(pair) {
     pairs.value.push(pair);
   }

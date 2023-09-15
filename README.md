@@ -64,6 +64,44 @@ Todo List + Tree View
 #### 🌳 Tree View
 
 1. Developed a tree structure based on the key-value pairs.
+   - tree structure plan A:
+      ```javaScript
+      // nav.header.value: Fabric
+      const treeContainer = ref({
+      nav: {
+         value: null
+         header: {
+            value: null,
+            value: {
+               value: Fabric,
+               // What if user inputs keyName as "value", 
+               // one can't get the "true" value for rendering                 
+               },
+            },
+         },
+      });
+      ```
+   - tree structure plan B:
+      ```javaScript
+      // nav.header.value: Fabric
+      const treeContainer = ref({    
+         name: nav,
+         value: null,
+         children:[
+            {
+               name: header,
+               value: null,
+               children:[
+                  {
+                     name: value,
+                     value: Fabric,
+                     children:null
+                  }
+               ]
+            }
+         ]
+      });
+      ```
 2. Dynamically adapting a tree structure based on changes in any key-value pair stored in Pinia.
 
 ## 🔗 Reference:
