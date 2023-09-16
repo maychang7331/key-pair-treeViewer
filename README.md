@@ -25,7 +25,7 @@ The Key-Value Tree Viewer is an interactive web application that dynamically ada
 
 ## 🚀 Deploy with [Netlify](https://www.netlify.com/):
 
-Get started with the Key-Pair Tree Viewer in a few simple steps:
+Deploy the Key-Pair Tree Viewer in a few simple steps:
 
 1. Add new site, select Deploy manually
 2. Create a file named `netlify.toml` in both "dist" and "root" folders with following content:
@@ -42,8 +42,8 @@ Get started with the Key-Pair Tree Viewer in a few simple steps:
 If you want to set up your environment from scratch, follow these steps:
 
 1. [Install Tailwind CSS with Vite using Vue](https://tailwindcss.com/docs/guides/vite#vue)
-2. Install Pug: `npm install pug --save-dev`
-3. Install [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) and rename the file extension to `prettier.config.cjs`.
+2. Install [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) and rename the file extension to `prettier.config.cjs`.
+3. Install Pug: `npm install pug --save-dev`
 4. Install [@vue/language-plugin-pug](https://www.npmjs.com/package/@vue/language-plugin-pug): `npm install -D @vue/language-plugin-pug` and configure "jsconfig.json" (for resolving issues in VSCode).
 5. Install Pinia: `npm install pinia`
 
